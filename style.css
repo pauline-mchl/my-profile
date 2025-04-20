@@ -1,0 +1,164 @@
+body {
+  background-color: #f8f9fa; /* tu peux garder #f8f9fa ou #f9f9f9 selon ta préférence */
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+  h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #2ECC71;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+a {
+  color: #0080FF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0055aa;
+  text-decoration: underline;
+}
+/* CENTRER LE CONTENEUR */
+.container {
+  width: 700px;
+  margin: 40px auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* STYLE DES CARTES */
+.card-white {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* LISTE INLINE POUR LES LIENS */
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* ICÔNES & LIENS */
+a {
+  color: #0080FF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0055aa;
+}
+
+/* IMAGE DE PROFIL */
+img {
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin-top: 10px;
+}
+.card-white:hover {
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+}
+
+img-circle {
+  border-radius: 50%;
+}
+.btn-purple {
+  background-color: #9b59b6;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.btn-purple:hover {
+  background-color: #8e44ad;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0 15px;
+}
+
+.list-inline a {
+  text-decoration: none;
+  color: #0080FF;
+  font-weight: bold;
+}
+.card-white p {
+  margin-bottom: 15px;
+}
+/* ----------------------------- */
+/* RESPONSIVE DESIGN POUR MOBILE */
+/* ----------------------------- */
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+  /* Centrer les textes si l’écran est très petit */
+  .card-white {
+    text-align: center;
+  }
+
+  .list-inline {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .list-inline > li {
+    display: block;
+    margin: 10px 0;
+  }
+}
