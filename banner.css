@@ -1,0 +1,24 @@
+* banner.css */
+.banner {
+  background-image: url("../../images/background.jpg"); /* Image de fond */
+  background-size: cover; /* L'image couvre toute la bannière */
+  background-position: center; /* Centrer l'image */
+  padding: 150px 0; /* Ajouter du padding en haut et en bas */
+}
+
+.banner h1 {
+  color: white; /* Couleur du texte */
+  font-size: 50px; /* Taille du texte du titre */
+}
+
+.banner h2 {
+  color: white; /* Couleur du texte */
+  font-size: 30px; /* Taille du texte de la sous-titre */
+  font-weight: lighter; /* Poids du texte */
+  opacity: 0.8; /* Opacité légèrement réduite */
+}
+
+.banner-with-flat-filter {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/background.jpg');
+  /* Appliquer un filtre de couleur noir semi-transparent sur l'image de fond */
+}

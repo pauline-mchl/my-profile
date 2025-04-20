@@ -1,3 +1,11 @@
+/* Importation des polices Google */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importation des fichiers de composants */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
 body {
   background-color: #f8f9fa; /* tu peux garder #f8f9fa ou #f9f9f9 selon ta préférence */
   font-family: 'Poppins', sans-serif;
